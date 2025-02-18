@@ -15,7 +15,6 @@
 }
 .Inspiration-heading-blogpage {
   color: #ffffff;
-  font-family: Caveat, cursive;
 }
 .nav-heading-blogpage {
   color: #ffffff;
@@ -164,12 +163,10 @@
 }
 .content-heading {
   font-size: 17px;
-  font-family: sans-serif;
   margin-top: 25px;
 }
 .content-para {
   font-size: 10px;
-  font-family: sans-serif;
   margin-top: 10px;
   line-height: 18px;
 }

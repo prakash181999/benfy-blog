@@ -1,9 +1,9 @@
-import {useState, useEffect} from 'react'
+import {useEffect, useState} from 'react'
 
 import {
-  FaSearch,
   FaFacebookF,
   FaInstagram,
+  FaSearch,
   FaTwitter,
   FaYoutube,
 } from 'react-icons/fa'
@@ -15,10 +15,14 @@ import './index.css'
 const HomePage = () => {
   const [postData, setPostdata] = useState([])
 
-  useEffect(async () => {
-    const response = await fetch('https://jsonplaceholder.typicode.com/posts')
-    const data = await response.json()
-    setPostdata(data)
+  useEffect(() => {
+    async function fetchData() {
+      const response = await fetch('https://jsonplaceholder.typicode.com/posts')
+      const data = await response.json()
+      setPostdata(data)
+    }
+
+    fetchData()
   }, [])
 
   const imgedetailsObj = [

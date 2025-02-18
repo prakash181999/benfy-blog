@@ -1,7 +1,6 @@
 .heading-post-details {
   color: black;
   font-size: 17px;
-  font-family: Roboto;
   font-weight: bold;
   margin-top: 0px;
   padding-top: 0px;
@@ -111,7 +110,6 @@
 .view-post-para-link-post-details {
   margin-top: 10px;
   color: #121416;
-  font-family: Europa-Bold;
   text-underline-offset: 7px;
   font-weight: 700;
 }
