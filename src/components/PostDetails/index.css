@@ -1,0 +1,117 @@
+.heading-post-details {
+  color: black;
+  font-size: 17px;
+  font-family: Roboto;
+  font-weight: bold;
+  margin-top: 0px;
+  padding-top: 0px;
+  margin-bottom: 5px;
+}
+.post-container-post-details {
+  height: 380px;
+  width: 270px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  align-self: flex-start;
+  margin-bottom: auto;
+  margin-top: auto;
+  position: relative;
+}
+
+.post-image-post-details {
+  height: 60%;
+  width: 100%;
+  background-color: rgba(18, 20, 22, 0.541);
+  background-size: cover;
+}
+.text-over-image-post-details {
+  position: absolute;
+  height: 20px;
+  width: 90%;
+  margin-left: 15px;
+  margin-bottom: 120%;
+  margin-right: auto;
+
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.only-para-container-post-details {
+  display: flex;
+  flex-direction: row;
+}
+.Aenean-text-style-post-details {
+  background-color: rgba(255, 255, 255, 0.253);
+  height: 20px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 11px;
+  margin-right: 10px;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.icon-container-post-details {
+  background-color: rgba(255, 255, 255, 0.253);
+  width: 30px;
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  margin-right: 20px;
+}
+.icon-style-post-details {
+  margin-left: 5px;
+  font-size: 20px;
+}
+.post-para-post-details {
+  font-size: 10px;
+  color: #6c757d;
+}
+.main-container-post-details {
+  margin: 10px;
+  height: 420px;
+  border: 0px solid;
+  padding: 0px;
+}
+.name-style-post-details {
+  font-size: 12px;
+}
+.name-image-style-post-details {
+  height: 23px;
+  width: 22px;
+  border-radius: 25px;
+  margin-right: 2px;
+}
+.image-content-container-post-details {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  align-self: center;
+}
+.image-container-post-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  align-self: center;
+}
+.viewpost-link-post-details {
+  margin-top: 10px;
+}
+.view-post-para-link-post-details {
+  margin-top: 10px;
+  color: #121416;
+  font-family: Europa-Bold;
+  text-underline-offset: 7px;
+  font-weight: 700;
+}
